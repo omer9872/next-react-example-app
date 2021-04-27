@@ -1,0 +1,156 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.userContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.controlBtnContainer {
+  background-color: #E2E2E2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.btnAdd {
+  border: 0rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1.15rem 0.5rem 1.15rem;
+  background-color: #76CE67;
+  color: white;
+  transition: 250ms;
+}
+
+.btnAdd:hover {
+  border-radius: 6px;
+  background-color: #50B140;
+}
+
+.btnUpdate {
+  border: 0rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1.15rem 0.5rem 1.15rem;
+  background-color: #386FD8;
+  color: white;
+  transition: 250ms;
+}
+
+.btnUpdate:hover {
+  border-radius: 6px;
+  background-color: #5F90EE;
+}
+
+.btnDelete {
+  border: 0rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1.15rem 0.5rem 1.15rem;
+  background-color: #CB2B2B;
+  color: white;
+  transition: 250ms;
+}
+
+.btnDelete:hover {
+  border-radius: 6px;
+  background-color: #EE5F5F;
+}
+
+.updateContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.updateContainer h4 {
+  margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.updateContainer input {
+  margin: 0.5rem;
+  padding: 10px;
+  outline: none;
+}
+
+.saveBtn {
+  border: 0rem;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 1.15rem 0.5rem 1.15rem;
+  background-color: #386FD8;
+  color: white;
+  border-radius: 3px;
+  transition: 250ms;
+}
+
+.saveBtn:hover {
+  border-radius: 6px;
+  background-color: #5F90EE;
+}
+
+.userRow {
+  background-color: #F7F7F7;
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.userRow:nth-child(odd) {
+  background-color: #ECECEC;
+}
+
+.userRow p {
+  margin: 0px;
+  width: 250px;
+}
+
+.userRow span {
+  margin: 0px;
+  width: 250px;
+  font-weight: bold;
+}
+
+.userRowInputContainer {
+  width: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userCheckbox {
+  width: 50px;
+  height: 1.4rem;
+}
+
+@media only screen and (min-width: 321px) {
+  .userContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .userContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .userContainer {
+    width: 1224px;
+  }
+}
+
+@media only screen and (min-width: 1824px) {}

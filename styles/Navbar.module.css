@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background-color: #386FD8;
+}
+
+.btn {
+  border: 0rem;
+  margin: 0.5rem 0rem 0rem 0.75rem;
+  padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+  color: white;
+  transition: 250ms;
+}
+
+.btn:hover {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: white;
+  color: #386FD8;
+}
